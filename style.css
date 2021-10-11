@@ -1,0 +1,82 @@
+@media screen and (max-width: 480px) {
+    .table-responsive{
+        width: 100% !important;
+        overflow: scroll;
+    }
+
+    .pagination{
+        width: 100% !important;
+    }
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination {
+    width: 640px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.pagination a {
+    color: rgb(110, 110, 110);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.active {
+    color: black !important;
+    font-size: 1.5em;
+    padding-top: 4px !important;
+}
+
+.table-responsive{
+    width: 640px;
+    border: 1px solid #aaa;
+}
+
+table {
+    width: 100%;
+    padding: 16px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.th {
+    font-weight: bold;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    border-bottom: 1px solid #aaa;
+    background: #F3F3F3;
+}
+
+td,
+th {
+    border: 1px solid transparent;
+    border-bottom: 1px solid #aaa;
+    padding: 16px;
+}
+
+tr:hover{
+    background: #FAFAFA;
+    transition: all 0.3s;
+}
+
+.my-select{
+    margin-top: 16px;
+}
